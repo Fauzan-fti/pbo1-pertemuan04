@@ -13,10 +13,9 @@ public class DoWhile {
             isiGelas++;
             System.out.println("Sedang mengisi gelas..");
             System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        }while(isiGelas != penuh)
+        }while(isiGelas != penuh);
 
         System.out.println("Finale : Isi Gelas Sekarang : " + isiGelas + "ml");
     }
 
-}
 }
